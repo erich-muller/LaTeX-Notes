@@ -1,5 +1,5 @@
 ---
-title: 1.4 Símbolos Matemáticos
+title: 1.3 Símbolos Matemáticos
 draft: false
 tags:
 order:
@@ -41,31 +41,32 @@ Para grandes equações é preferível usar linhas separadas. Para isso, basta e
 
 > Existem muitos símbolos matemáticos e por isso não colocaremos todos aqui. Para um guia completo use https://lief.if.ufrgs.br/pub/latex/lshortBR.pdf (página 55).
 
-
-> [!todo]- Exercício
-> Escreva um código em $\LaTeX$ com a seguinte saída:
-> 
-> ![[Pasted image 20260723175849.png]]
-
-### Textos Matemáticos
-
 Vale ressaltar que dentro do ambiente matemático todo texto é tratado como variável. Assim, ao escrever `$pelo Teorema 1$`, obtemos "$pelo Teorema 1$". Para escrever textos dentro de ambientes matemáticos usamos o comando `\text{}`. Também podemos usar `\textbf{}` ou `\textit{}` para textos em negrito ou itálico.
 
 Há ainda alguns outros textos matemáticos que são estilizados. A seguir, algumas formas de se obter esses resultados.
 
-| Exemplo               | Comando               | Pacote necessário          |
-| --------------------- | --------------------- | -------------------------- |
-| $\mathrm{ABCdef}$     | `\mathrm{ABCdef}`     | ❌                          |
-| $\mathit{ABCdef}$     | `\mathit{ABCdef}`     | ❌                          |
-| $\mathnormal{ABCdef}$ | `\mathnormal{ABCdef}` | ❌                          |
-| $\mathcal{ABC}$       | `\mathcal{ABC}`       | eucal com a opção: mathcal |
-| $\mathscr{ABC}$       | `\mathscr{ABC}`       | eucal com a opção: mathscr |
-| $\mathfrak{ABCdef}$   | `\mathfrak{ABCdef}`   | eufrak                     |
-| $\mathbb{ABC}$        | `\mathbb{ABC}`        | amsfonts ou amssymb        |
+| Exemplo               |        Comando        |     Pacote necessário      |
+| --------------------- | :-------------------: | :------------------------: |
+| $\mathrm{ABCdef}$     |   `\mathrm{ABCdef}`   |             ❌              |
+| $\mathit{ABCdef}$     |   `\mathit{ABCdef}`   |             ❌              |
+| $\mathnormal{ABCdef}$ | `\mathnormal{ABCdef}` |             ❌              |
+| $\mathcal{ABC}$       |    `\mathcal{ABC}`    | eucal com a opção: mathcal |
+| $\mathscr{ABC}$       |    `\mathscr{ABC}`    | eucal com a opção: mathscr |
+| $\mathfrak{ABCdef}$   |  `\mathfrak{ABCdef}`  |           eufrak           |
+| $\mathbb{ABC}$        |    `\mathbb{ABC}`     |    amsfonts ou amssymb     |
 
 > [!tip] Dica
-> Para criar equações enumeradas ou agrupadas, consulte [[Equações Enumeradas]]. Para construir matrizes, funções por partes ou tabelas, consulte [[Alinhamento Vertical]]. Para organizar teoremas, definições automaticamente, veja [[Teoremas, Definições, etc.]].
+> Para criar equações enumeradas ou agrupadas, consulte [[Equações Enumeradas]]. Para construir matrizes, funções por partes ou tabelas, consulte [[Alinhamento]]. Para organizar teoremas ou definições automaticamente, veja [[Teoremas, Definições, etc.]].
+
+
+> [!todo] Exercício
+> Modifique o arquivo `Exercício 2.tex` para que ele tenha a seguinte aparência.
+> 
+> ![[Figuras/Pasted image 20260808162559.png]]
+> 
+> **Dica:** pesquise os comandos que você desconhece em https://lief.if.ufrgs.br/pub/latex/lshortBR.pdf (Lista de Símbolos Matemáticos, folha 68, página 52).
 
 
 > [!check] Próxima página
 > [[Imagens]]
+

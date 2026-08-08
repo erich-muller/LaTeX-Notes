@@ -1,5 +1,5 @@
 ---
-title: 2.3 Equações Enumeradas
+title: 2.4 Equações Enumeradas
 draft: false
 tags:
 order:
@@ -57,4 +57,4 @@ A seguir um exemplo para ver esses diferentes ambientes em ação.
 > ![[Pasted image 20260723182143.png]]
 
 > [!check] Próxima página
-> [[Alinhamento Vertical]]
+> [[Alinhamento]]
