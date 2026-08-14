@@ -37,7 +37,7 @@ $$a^2 + b^2 = c^2$$
 
 
 > [!todo]- Exercício
-> Com base nos ambientes vistos até aqui, modifique o arquivo `Exercicio 3.tex` para que ele tenha a seguinte aparência.
+> Com base nos ambientes vistos até aqui, modifique o arquivo `Exercicio 4.tex` para que ele tenha a seguinte aparência.
 > 
 > ![[Figuras/Pasted image 20260808182017.png]]
 

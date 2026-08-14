@@ -77,4 +77,4 @@ $$
 
 
 > [!check] Próxima página
-> [[Teoremas, Definições, etc.]]
+> [[Equações Enumeradas]]

@@ -4,7 +4,28 @@ draft: false
 tags:
 order:
 ---
-Vejamos alguns ambientes especiais que possuem características próprias. Os ambientes abaixo te ajudam a alinhar o seu texto, numerar e quebrar linhas com facilidade. Use diferentes ambientes para diferentes necessidades.
+Muito comumente é necessário enumerar equações, fórmulas e outros para que, posteriormente possamos referenciá-las. A seguir, veremos alguns ambientes dentro do $\LaTeX$ que nos permite fazer esse controle automaticamente. 
+
+O primeiro ambiente é o `equation`. Ele enumera suas equações e também as alinha ao centro. Experimente o exemplo abaixo.
+
+```latex
+\begin{equation}
+    f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
+\end{equation}
+```
+
+Esse ambiente, apesar de útil, não permite a quebra de linhas. Para isso, podemos usar um outro ambiente dentro do `equation`, conhecido como `split`. Esse outro ambiente não é nativo, portanto para conseguir usá-lo, certifique-se de adicionar `\usepackage{amsmath}` no seu preâmbulo. O exemplo abaixo mostra uma equação com mais de uma linha.
+
+```latex
+\begin{equation}
+\begin{split}
+    f(x) &= \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n \\
+    &= f(a) + \frac{f'(a)}{1!}(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \dots
+\end{split}
+\end{equation}
+```
+
+Existem também outros ambientes para inserir equações que nativamente permitem quebras de linhas e fazem alinhamentos adequados. Você deve usar diferentes ambientes para diferentes necessidades, veja a tabela abaixo.
 
 | ambiente | colunas | enumeração                       | quebra de linhas | alinhamento                                                                                                      |
 | -------- | ------- | -------------------------------- | :--------------: | ---------------------------------------------------------------------------------------------------------------- |
@@ -13,7 +34,6 @@ Vejamos alguns ambientes especiais que possuem características próprias. Os am
 | align    | várias  | um número para cada linha        |        ✅         | alterna entre esquerda, centro e direita                                                                         |
 | multline | 1       | um número para toda a expressão. |        ✅         | a primeira linha é alinhada à esquerda, as demais são alinhadas ao centro e a última linha é alinhada à direita. |
 > Você pode omitir a numeração de um ambiente colocando um asterisco após o nome. Exemplo: `\begin{equation*} ... \end{equation*}`.
-
 
 A seguir um exemplo para ver esses diferentes ambientes em ação.
 
@@ -52,9 +72,9 @@ A seguir um exemplo para ver esses diferentes ambientes em ação.
 
 
 > [!todo]- Exercício
-> Crie um documento com a seguinte aparência.
+> Modifique o arquivo `Exercicio 3.tex` para que ele fique com a seguinte aparência.
 > 
-> ![[Pasted image 20260723182143.png]]
+> ![[Figuras/Pasted image 20260814141559.png]]
 
 > [!check] Próxima página
-> [[Alinhamento]]
+> [[Teoremas, Definições, etc.]]
