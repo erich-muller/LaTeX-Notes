@@ -4,7 +4,7 @@ draft: false
 tags:
 ---
  
-Esta é uma página contém notas para guiar um minicurso de $\LaTeX$ ministrado na Semana da Matemática, na Universidade Federal de Viçosa em 2026. Este material foi produzido por Erich Müller Dutra. 
+Esta é uma página que contém notas para guiar um minicurso de $\LaTeX$ ministrado na Semana da Matemática, na Universidade Federal de Viçosa em 2026. Este material foi produzido por Erich Müller Dutra. 
 
 - [Download do material](https://github.com/erich-muller/LaTeX-Notes/releases/download/Materiais/Minicurso_LaTeX.zip). 
 - [Download dos slides](https://github.com/erich-muller/LaTeX-Notes/releases/download/Materiais/slides.html).
